@@ -16,12 +16,6 @@ sections:
         size: large
         variant: contained
         color: primary
-      - type: Button
-        label: Read the Docs
-        url: 'https://docs.netlify.com/visual-editor/overview/'
-        size: large
-        variant: outlined
-        color: primary
     image:
       type: Image
       url: /images/hero.svg
