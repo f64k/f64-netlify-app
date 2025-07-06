@@ -3,54 +3,11 @@ title: Home
 type: Page
 sections:
   - type: HeroSection
-    title: Hero Title
-    subtitle: 'Featuring TypeScript, Next.js, MUI v5 & Emotion'
-    text: >
-      This is the HeroSection component. You can visually edit this component &
-      add more sections while developing locally. [Learn
-      more.](https://docs.netlify.com/visual-editor/local-development/)
-    actions:
-      - type: Button
-        label: Start Building
-        url: 'https://docs.netlify.com/visual-editor/get-started/'
-        size: large
-        variant: contained
-        color: primary
+    title: Как же редактировать ?
+    subtitle: а как там просто редактировать текст самих html
+    text: "Netlify\_**не предоставляет встроенного онлайн-редактора**\_для редактирования файлов сайта (например,\_`index.html`) прямо с панели управления. В отличие от некоторых конструкторов сайтов или CMS, Netlify специализируется на автоматизированном деплое ваших файлов из репозитория или при загрузке архива/папки. Вот основные способы изменить текст на deployed-сайте на Netlify:\n\n## 1.\_**Через Git-репозиторий (Рекомендуется)**\n\n1.  **Откройте ваш проект на компьютере.**\n\n2.  **Отредактируйте файл\_`index.html`**\_в любом редакторе (например, VS Code, Sublime, Notepad++).\n\n3.  **Сохраните изменения**.\n\n4.  **Закоммитьте и отправьте их в репозиторий**:\n\n5.  **Netlify автоматически ребилдит и разворачивает обновлённый сайт.**\n\n## 2.\_**Drag & Drop (ручные обновления, если без git)**\n\n1.  Отредактируйте\_`index.html`\_локально.\n\n2.  Перейдите на\_[Netlify Drop](https://app.netlify.com/drop)\_или откройте свой сайт в панели Netlify и выберите \"Deploys\" → \"Upload a deploy\".\n\n3.  Загрузите обновлённую папку (с новым\_`index.html`).\n\n4.  Сайт обновится.\n\n## 3.\_**(Не применяется) Онлайн-редактирование**\n\n*   На данный момент\_**Netlify не позволяет редактировать файлы прямо на сайте**.\n\n*   Можно только управлять файлами через исходный код (git-репозиторий) или перезагружать папки целиком.\n\n## 4.\_**Если нужен реальный онлайн-редактор**\n\n*   Если нужен прямой веб-редактор HTML/контента — попробуйте:\n\n    *   GitHub +\_[GitHub Web Editor (.)](https://github.com/): нажимаете\_`.`\_(точка) в любом репозитории, можно редактировать онлайн и сразу коммитить.\n\n    *   Использовать headless CMS (например,\_[Netlify CMS](https://www.netlifycms.org/)), тогда контент сайта можно редактировать через браузер, а Netlify будет автоматически развертывать обновления.\n"
+    actions: []
     image:
       type: Image
-      altText: Hero section image
-  - type: CardsSection
-    title: Cards Section Component
-    subtitle: Section subtitle here
-    items:
-      - type: Card
-        title: First Card Title
-        image:
-          type: Image
-          url: /images/nextjs.svg
-          altText: First item image
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        actions:
-          - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
-      - type: Card
-        title: Second Card Title
-        image:
-          type: Image
-          url: /images/mui-5.svg
-          altText: Second item image
-        text: >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        actions:
-          - type: Button
-            label: Read the Docs
-            url: 'https://docs.netlify.com/visual-editor/overview/'
+      altText: Image alt text
 ---
