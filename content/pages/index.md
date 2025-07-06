@@ -5,10 +5,6 @@ sections:
   - type: HeroSection
     title: This Is A Big Hero Headline
     subtitle: The section subtitle
-    text: >-
-      Aenean eros ipsum, interdum quis dignissim non, sollicitudin vitae nisl.
-      Aenean vel aliquet elit, at blandit ipsum. Sed eleifend felis sit amet
-      erat molestie, hendrerit malesuada justo ultrices. Nunc volutpat at erat
-      itae interdum. Ut nec massa eget lorem blandit condimentum et at risus.
+    text: "Netlify\_**не предоставляет встроенного онлайн-редактора**\_для редактирования файлов сайта (например,\_`index.html`) прямо с панели управления. В отличие от некоторых конструкторов сайтов или CMS, Netlify специализируется на автоматизированном деплое ваших файлов из репозитория или при загрузке архива/папки. Вот основные способы изменить текст на deployed-сайте на Netlify:\n\n## 1.\_**Через Git-репозиторий (Рекомендуется)**\n\n1.  **Откройте ваш проект на компьютере.**\n\n2.  **Отредактируйте файл\_`index.html`**\_в любом редакторе (например, VS Code, Sublime, Notepad++).\n\n3.  **Сохраните изменения**.\n\n4.  **Закоммитьте и отправьте их в репозиторий**:\n\n5.  **Netlify автоматически ребилдит и разворачивает обновлённый сайт.**\n\n## 2.\_**Drag & Drop (ручные обновления, если без git)**\n\n1.  Отредактируйте\_`index.html`\_локально.\n\n2.  Перейдите на\_[Netlify Drop](https://app.netlify.com/drop)\_или откройте свой сайт в панели Netlify и выберите \"Deploys\" → \"Upload a deploy\".\n\n3.  Загрузите обновлённую папку (с новым\_`index.html`).\n\n4.  Сайт обновится.\n\n## 3.\_**(Не применяется) Онлайн-редактирование**\n\n*   На данный момент\_**Netlify не позволяет редактировать файлы прямо на сайте**.\n\n*   Можно только управлять файлами через исходный код (git-репозиторий) или перезагружать папки целиком.\n\n## 4.\_**Если нужен реальный онлайн-редактор**\n\n*   Если нужен прямой веб-редактор HTML/контента — попробуйте:\n\n    *   GitHub +\_[GitHub Web Editor (.)](https://github.com/): нажимаете\_`.`\_(точка) в любом репозитории, можно редактировать онлайн и сразу коммитить.\n\n    *   Использовать headless CMS (например,\_[Netlify CMS](https://www.netlifycms.org/)), тогда контент сайта можно редактировать через браузер, а Netlify будет автоматически развертывать обновления.\n"
     actions: []
 ---
