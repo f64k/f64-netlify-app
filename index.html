@@ -19,24 +19,24 @@
                 aside
             </div>
             <div>
-                <button onclick="go()">Get status</button>
-                <pre id="out"></pre>
+                <button onclick="go1()">Get status</button>
+                <pre id="out1"></pre>
                 <script>
-                    function go() {
+                    function go1() {
                         fetch('/.netlify/functions/status')
                             .then(res => res.json())
-                            .then(data => out.textContent = JSON.stringify(data, null, 2))
+                            .then(data => out1.textContent = JSON.stringify(data, null, 2))
                     }
                 </script>
             </div>
             <div>
-                <button onclick="go()">Системная инфа</button>
-                <pre id="out"></pre>
+                <button onclick="go2()">Системная инфа</button>
+                <pre id="out2"></pre>
                 <script>
-                    function go() {
+                    function go2() {
                         fetch('/.netlify/functions/sysinfo')
                             .then(res => res.json())
-                            .then(data => out.textContent = JSON.stringify(data, null, 2));
+                            .then(data => out2.textContent = JSON.stringify(data, null, 2));
                     }
                 </script>
             </div>
