@@ -14,15 +14,13 @@ body {
     font-family: system-ui, sans-serif;
     color: black;
     background-color: white;
-}
-
-body {
     display: flex;
     flex-direction: column;
 }
 
+
 header {
-    height: 25px;
+    padding: 0.5em;
     background-color: wheat;
 }
 
@@ -30,11 +28,11 @@ main {
     flex: auto;
     overflow: auto;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 footer {
-    height: 25px;
+    padding: 0.5em;
     background-color: wheat;
 }
 
