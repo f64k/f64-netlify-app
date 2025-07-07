@@ -36,6 +36,11 @@ footer {
     background-color: wheat;
 }
 
+footer section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 aside {
     background-color: silver;
