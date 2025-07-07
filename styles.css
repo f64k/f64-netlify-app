@@ -29,6 +29,8 @@ header {
 main {
     flex: auto;
     overflow: auto;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 footer {
