@@ -29,6 +29,17 @@
                     }
                 </script>
             </div>
+            <div>
+                <button onclick="go()">Системная инфа</button>
+                <pre id="out"></pre>
+                <script>
+                    function go() {
+                        fetch('/.netlify/functions/sysinfo')
+                            .then(res => res.json())
+                            .then(data => out.textContent = JSON.stringify(data, null, 2));
+                    }
+                </script>
+            </div>
         </aside>
         <section>
             <div>f64-netlify-app</div>
