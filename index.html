@@ -34,7 +34,7 @@
                 <pre id="out2"></pre>
                 <script>
                     function go2() {
-                        fetch('/.netlify/functions/sysinfo')
+                        fetch('/.netlify/functions/sysinfo2')
                             .then(res => res.json())
                             .then(data => out2.textContent = JSON.stringify(data, null, 2));
                     }
